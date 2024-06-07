@@ -1,0 +1,83 @@
+
+
+.search-table-outter {
+    overflow-y: scroll !important;
+    height: 500px !important;
+}
+.search-table{
+    border: 2px solid #2f3a42 !important;
+
+}
+
+  .search-table-outter::-webkit-scrollbar {
+    width: 5px;
+    border: 2px solid #d5d5d5;
+  }
+  .search-table-outter::-webkit-scrollbar-track {
+    background:  #d5d5d5 !important;
+  }
+  .search-table-outter::-webkit-scrollbar-thumb {
+    background: #F26000 !important;
+    border-radius: 6px !important;
+    border: 3px solid #F26000 !important;
+}
+
+.search-table, td, th{
+    /* border-collapse:collapse;  */
+    border:1px solid #2f3a42;
+    min-width: 200px;
+}
+/* th, td { min-width: 200px; } */
+
+@media (max-width:420px) {
+.search-table-outter{
+    overflow-y: auto;
+    width: 100%;
+}
+}
+thead{
+    border-bottom: 2px solid #2f3a42 !important;
+    border-radius: 20px !important;
+    background-color: #2f3a42 !important;
+    position:sticky;
+    top: 0;
+}
+
+
+
+thead th {
+    background:#2f3a42;
+    text-align: center;
+    font-size: 20px;
+    padding: 1.5% !important;
+}
+tbody tr td{
+    position: sticky !important;
+    text-align: center;
+    align-items: center;
+    padding:1.5% 1.5% !important;
+}
+
+.avtarImage{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+.maticImage{
+    height:20px;
+    width: 20px;
+    margin-left:5px;
+
+}
+.HeadTailImage{
+    height:20px;
+    width: 20px;
+    margin-left:5px;
+}
+
+tbody tr{
+    border-bottom: 2px solid #2f3a42 !important;
+  }
+
+

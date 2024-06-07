@@ -1,0 +1,56 @@
+.top_nav{
+    border-bottom: solid 2px #2d373f !important;
+    border-left: solid 2px #2d373f !important;
+}
+
+@media (max-width:420px) {
+.side_nav_open{
+    position: absolute !important;
+}
+}
+.color_gradient{
+  background: radial-gradient(#975787, #301428);
+    
+}       
+/* .hovercls:hover{
+    color: red;
+} */
+
+.allGame.active{
+    color: #fdc66c !important;
+    text-decoration: none;
+    border-bottom: 2px solid #fdc66c;
+    list-style: none;
+   /* margin-top: 20px; */
+   /* background-color: white; */
+   padding: 10px;
+   background: linear-gradient(0deg,#e9bb2255,transparent);
+   /* height: 18px !important; */
+   /* margin-top: 20px; */
+}
+.allGame:hover{
+    color: #fdc66c !important;
+    text-decoration: none;
+    border-bottom: 2px solid #fdc66c;
+   list-style: none;
+   background: linear-gradient(0deg,#e9bb2255,transparent);
+
+}
+.allGame{
+    color: white !important;
+    text-decoration: none;
+   list-style: none;
+   padding: 10px;
+
+}
+.connect_btn{
+    background-color: #fdc66c !important;
+    color: #301428 !important;
+    font-weight: bold;
+    border: none !important;
+    border-radius: 5px solid #fdc66c;
+    -webkit-border-radius: 5px solid #fdc66c;
+    -moz-border-radius: 5px solid #fdc66c;
+    -ms-border-radius: 5px solid #fdc66c;
+    -o-border-radius: 5px solid #fdc66c;
+}

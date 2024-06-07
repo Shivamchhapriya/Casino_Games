@@ -1,0 +1,24 @@
+.statsbox .iconContainer {
+    height: 48px;
+    width: 48px;
+    background: #58f57b;
+    border-radius: 100%;
+    margin: auto;
+    display: grid;
+    align-content: space-around;
+    justify-content: center;
+}
+.statsbox {
+    padding: 20px;
+    border: 1px solid #2f3a42;
+    border-radius: 30px;
+    height: auto;
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+.statsbox .title {
+    padding-top: 5px;
+}

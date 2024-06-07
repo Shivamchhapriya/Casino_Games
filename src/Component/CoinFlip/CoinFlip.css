@@ -1,0 +1,233 @@
+.buttons_main{
+    padding: 0% 15% !important
+}
+.btn_main{
+  width: 100%;  
+}
+.btn_main span{
+    /* background-color: red; */
+}
+.betToEarnMain{
+    padding: 0% 15%;
+}
+
+.coinflip_box{
+    border: 2px solid #b3481a;
+ /* padding: 2% 0%!important;  */
+  
+}
+.Amount_main{
+    padding: 0% 15% !important
+}
+.min_max_main{
+    /* background-color: #2484d2; */
+    padding: 0% 15% !important;
+    margin: 5% 0% 5% 0%;
+
+}
+.connectButtonForm{
+padding: 0% 15%;
+}
+.MuiSelect-select{
+    padding: 3% !important;
+}
+.Select_span{
+    align-items: center !important;
+}
+.Select_menu{
+    /* padding: 2%  !important; */
+}
+.menu_item{
+    align-items: center;
+    margin: 2px !important;
+    padding: 2% !important;
+    /* background-color: red !important; */
+}
+.text_color{
+    color: #c9d2d7 !important;
+}
+.text_color1{
+    color: black !important;
+    font-weight: bold;
+}
+.menu_item:hover{
+    background-color: #201e2a !important;
+}
+.menu_item::selection{
+    background-color: yellow !important;
+}
+.menu_item{
+    background-color: black !important;
+    /* padding-bottom: 0px !important; */
+}
+.border_color{
+    padding: 5px;
+    border: 1px solid #2d373f;
+    width: 40px;
+    text-align: center;
+    background-color: rgb(141 135 0);
+}
+.border_color1{
+    padding: 5px;
+    border: 1px solid #2d373f;
+    width: 40px;
+    text-align: center;
+    background-color: yellow;
+}
+.hover_border_color:hover{
+    background-color: yellow;
+    color: black;
+}
+.border_pai{
+    /*padding: 5px;
+    */border: 1px solid #6c3369;
+    width: 100%;
+    /* font-size: 100%; */
+    padding: 2% 0%;
+    /* height: 25px; */
+    text-align: center;
+    border-radius: 10px;
+    background-color: #9f16834d;
+    cursor: pointer;
+    /* color: white; */
+}
+.hover_border_pai:hover{
+    color: black !important;
+}
+/* .diceChoice:hover{
+    fill: aqua !important;
+    background: #c9d2d7 !important;
+} */
+
+.head_tail_btn{
+    padding: 5px;
+    border: 1px solid #6c3369;
+    text-align: center;
+    background-color: #9f16834d;
+}
+.head_tail_btn Button{
+    border: 1px solid #6c3369;
+}
+.coin_box_main{
+    display: grid !important;
+    grid-template-columns:repeat(auto-fill) !important;
+    grid-gap: "10px" !important;
+}
+
+.left_box{
+    /* border:2px solid #2484d2; */
+    border-right: 2px solid rgb(164, 140, 140);
+    border-radius: 15px 0px 0px 15px !important;
+    /* flex-basis: 21% !important; */
+}
+.full_box{
+    border: 2px solid rgb(164, 140, 140);
+    border-radius: 15px 0px 0px 15px;
+}
+.btn_active{
+    background-color: red !important;
+}
+.matice_box{
+    display: flex !important;
+    padding: 0% 15% !important;
+}
+
+/* ///////////////////     ////////////////////////// */
+/* .btn-closes{
+    background-color: red;
+    position: absolute !important;
+    right: 0% !important;
+    top: 0% !important;
+    margin: 2% !important;
+    color: rgb(140, 120, 120) !important;
+    border: none !important;
+    font-size: 20px;
+    padding: 8px;
+} */
+.modal{
+    /* overflow: hidden !important; */
+    /* background-color: red !important; */
+}
+.modal-header{
+    /* padding-top: 20px; */
+    align-items: center !important;
+    background: radial-gradient(#975787, #301428) !important;
+
+}
+.modal-header svg{
+    margin-left: auto;
+    margin-right: auto;
+}
+.modal-content{
+    /* background-color: rgb(100, 18, 43) !important; */
+    background-color: #161A1E !important;
+    overflow: hidden !important; 
+}
+.modal-body{
+    text-align: center !important;
+}
+.body_choice{
+    color: #FDFBFB !important;
+}
+.footerButton{
+    background-color: #F45857 !important;
+    border: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 2% 10% !important;
+}
+
+.coin{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: 32px auto;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+.coin img{
+    width: 145px;
+}
+.heads,.tails{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+.tails{
+    transform: rotateX(180deg);
+}
+@keyframes spin-tails{
+    0%{
+        transform: rotateX(0);
+    }
+    100%{
+        transform: rotateX(1980deg);
+    }
+}
+@keyframes spin-heads{
+    0%{
+        transform: rotateX(0);
+    }
+    100%{
+        transform: rotateX(2160deg);
+    }
+}
+@media only screen and (max-width: 600px){
+   
+  }
+  @media (min-width: 1400px) {
+    .css-1uc80ur-MuiGrid-root{
+        flex-basis: 21% !important;
+    }
+  }
+  .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon{
+    color: white !important;
+  }
+  .css-bpeome-MuiSvgIcon-root-MuiSelect-icon{
+    color: white !important;
+
+  }

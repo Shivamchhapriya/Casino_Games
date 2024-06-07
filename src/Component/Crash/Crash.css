@@ -1,0 +1,82 @@
+.container {margin: auto;
+width: 15px;
+height: 15px;
+position: relative;
+-webkit-transform-origin: center bottom;
+transform-origin: center bottom;
+-webkit-animation-name: flicker;
+animation-name: flicker;
+-webkit-animation-duration: 3ms;
+animation-duration: 3ms;
+-webkit-animation-delay: .2s;
+animation-delay: .2s;
+-webkit-animation-timing-function: ease-in;
+animation-timing-function: ease-in;
+-webkit-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+-webkit-animation-direction: alternate;
+animation-direction: alternate;
+z-index: 5;
+}
+.red{
+    left: 1.25px;
+    width: 12.5px;
+    height: 12.5px;
+    background: #ff4500;
+    box-shadow: 0 0 5px 4px #ff4500;
+}
+.flame{
+    bottom: 0;
+    position: absolute;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    -webkit-transform: rotate(-45deg) scale(1.5);
+    transform: rotate(-45deg) scale(1.5);
+
+}
+.orange{
+    left: 2.5px;
+    width: 10px;
+    height: 10px;
+    background: orange;
+    box-shadow: 0 0 9px 4px orange;
+}
+.yellow{
+    left: 3.75px;
+    width: 7.5px;
+    height: 7.5px;
+    background: gold;
+    box-shadow: 0 0 9px 4px gold;
+}
+.white{
+    left: 3.75px;
+    bottom: -1px;
+    width: 7.5px;
+    height: 7.5px;
+    background: #fff;
+    box-shadow: 0 0 9px 4px #fff;
+
+}
+.shi{
+    justify-content: center !important;
+}
+
+
+
+.container{
+    -webkit-animation: container 0.1s infinite  alternate;
+    animation: container 0.1s infinite  alternate;
+}
+.container {
+    -webkit-animation: container 0.1s infinite  alternate;
+    animation: container 0.1s infinite  alternate;
+}
+@-webkit-keyframes container {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-1px); -webkit-transform: translateY(-2px); -moz-transform: translateY(-5px); -ms-transform: translateY(-5px); -o-transform: translateY(-5px); }
+}
+@keyframes container {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-1px); -webkit-transform: translateY(-2px); -moz-transform: translateY(-5px); -ms-transform: translateY(-5px); -o-transform: translateY(-5px); }
+}
